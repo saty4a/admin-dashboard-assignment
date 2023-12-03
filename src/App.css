@@ -1,0 +1,55 @@
+.selected-users {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th:first-child,
+td:first-child {
+  width: 30px;
+}
+
+input[type="checkbox"] {
+  margin: 0;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.page-pagination {
+  position: absolute;
+  right: 0rem;
+  margin-top: 3rem;
+}
+
+.pagination-style {
+  display: flex;
+  width: 15rem;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+
+.pagination-contents {
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 2px 10px 2px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-pagination {
+    right: 5rem;
+  }
+}
