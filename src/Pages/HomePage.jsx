@@ -45,7 +45,9 @@ const HomePage = () => {
         setMembersData(filteredData);
     }
     else {
-      fetchData();
+      fetchData().then((data) => {
+        setMembersData(data)
+      });
     }
   }
 
